@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario acerca del maquillaje</title>
+</head>
+<body>
+    <div>
+        <H1>¿Cuánto sabes del maquillaje?</H1>
+        <br>
+       
+        <form action="#" method="POST" id="ejercicioForm">
+            <br>
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <br>
+                <div>
+                    <label for="nombre y apellido">Nombre y apellido *</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre - Apellido" required>
+                </div>
+                <br>
+                <div>
+                    <label for="fechaNacimiento">Fecha de nacimiento *</label>
+                    <input type="date" id="fechaNacimiento" name="dia/mes/año" required>
+                </div>                
+                <br>
+                <div>
+                    <label for="email">Correo electrónico *</label>
+                    <input type="email" id="email" name="email" placeholder="nombre@correo.com" required>
+                </div>
+                <br>
+            </fieldset>
+           
+            <fieldset>
+                <legend>Sus inicios...</legend>
+
+                <div>
+                    <label for="pregunta1">¿Como inicio el maquillaje?</label>
+                    <br>
+                    <select id="curso" name="curso" required> <br>
+                        <option value="">Seleccione una opción...</option>
+                        <option value="PRG">En los 2000</option>
+                        <option value="Ro">Pre-historia </option>
+                        <option value="Sist">En 1980</option>
+                        <br>
+                    </select>
+                    <br>
+                </div>
+             </fieldset>
+
+
+        <fieldset>
+                <legend>Antigueda</legend>
+                <div>
+                    <label>¿Para que se utilizaba el maquillaje en la antiguedad?</label>
+                    <div>
+                        <label>
+                            <input type="checkbox" name="evento" value="1GM">
+                            Se utilizaba para poder darle color al rostro.
+                        </label>
+                        <label>
+                            <input type="checkbox" name="evento" value="Muro">
+                            Para decorar objetos. 
+                        </label>
+                        <label>
+                            <input type="checkbox" name="evento" value="Ninguno">
+                            Para curar a las personas. 
+                        </label>
+                    </div>
+                </div>
+             </fieldset>
+
+
+
+             <fieldset>
+                <legend>Industria Nacional</legend>
+                <div>
+                    <label>Selecciona la marca de industria nacional</label>
+                    <div>
+                        <label>
+                            <input type="radio" name="marca" value="Dior">
+                           Dior
+                        </label>
+                        <label>
+                            <input type="radio" name="marca" value="Vogue">
+                            Vogue
+                        </label>
+                        <label>
+                            <input type="radio" name="marca" value="Mely">
+                           Mely
+                        </label>
+                    </div>
+                </div>
+             </fieldset>
+                   
+
+            
+            <fieldset>
+                <legend>Pregunta final</legend>
+                <div>
+                    <label for="porque">Desarrolla brevemente una marca de maquillaje que conozcas:</label>
+                    <br>
+                    <textarea id="porque" name="porque" rows="10" placeholder="Escribe acá..." required></textarea>
+                </div>
+            </fieldset>
+
+            
+            <fieldset style="margin-top: 1.5rem; margin-bottom: 1.5rem;">
+                <legend>Enlaces e Información</legend>
+                <div class="caja-enlaces-finales">
+                    <label style="display: flex; align-items: center; gap: 8px; margin-bottom: 15px;">
+                        <input type="checkbox" name="terminos" required style="width: auto;">
+                        Acepto los <a href="#" style="color: #fc9082; font-weight: bold;">térrminos y condiciones</a> *
+                    </label>
+                    
+                    <label style="line-height: 1.5;">
+                        Si queres conocer más sobre una de las marcas de maquillaje más importates  
+                        <a href="https://lorealparis.com.ar" target="_blank" style="color: #fc9082; font-weight: bold;">Make up</a> 
+                    </label>
+                </div>
+            </fieldset>
+
+           
+            <div class="caja-comentarios-final">
+                <label for="comentarios">Comentarios</label>
+                <textarea id="comentarios" name="comentarios" rows="4" placeholder="Escribí tus comentarios acá..."></textarea>
+            </div>
+            <br>
+
+           
+            <div class="contenedor-botones-verticales">
+                <button type="submit" class="btn-largo btn-guardar">Guardar</button>
+                <button type="reset" class="btn-largo btn-reset">Realizar otra vez</button>
+            </div>
+            
+        </form>
+    </div> 
+
+ <br>
+    
+
+    <section>
+        <span class="prop-tag"></span>
+        
+    </section>
+
+
+        <div class="cajas">
+             <div class="flex-item">Item 1</div>
+          <br>
+          <center><img src="img/img1.jpg"></center>
+        
+          
+        </div>
+        <br>
+
+            <div class="flex-item">Item 2</div>
+
+        <div class="cajas">
+            <br>
+          <center><img src="img/img2.jpg"/></center>
+          
+        
+
+          
+        </div>
+        <br>
+            <div class="flex-item">Item 3</div>
+            <div class="cajas">
+          <br>
+          <center><img src="img/img3.jpg"/></center>
+          
+
+        <br>
+
+         <div class="flex-item">Item 4</div>
+            <div class="cajas">
+         <br>
+          <center><img src="img/img4.jpg"/></center>
+          
+    
+        </div>
+        <br> 
+
+ <section>
+           
+   <div class="cards-container">
+
+  <div class="card">
+    <div>
+      <h3>Caja 1</h3>
+      <p>Visita nuestras tiendas por todo el mundo.</p>
+    </div>
+    <a href="#" class="btn-card">Mas informacion</a>
+  </div>
+
+  <div class="card">
+    <div>
+      <h3>Caja 2</h3>
+      <p>Conoce todos los productos de las marcas más conocidas.</p>
+    </div>
+    <a href="#" class="btn-card">Mas informacion</a>
+  </div>
+
+  <div class="card">
+    <div>
+      <h3>Caja 3</h3>
+      <p>Visita todas las marcas de maquillaje.</p>
+    </div>
+    <a href="#" class="btn-card">Mas informacion</a>
+  </div>
+
+  <div class="card">
+    <div>
+      <h3>Caja 4</h3>
+      <p>Tenemos envios a todo el pais.</p>
+    </div>
+    <a href="#" class="btn-card">Mas informacion</a>
+  </div>
+
+</div>
+
+
+    </section>
+    
+    <br>
+
+ <section>
+        <div class="flex-container" id="columnas">
+           <center> <div class="flex-item">Pagina de Dior</div></center>
+           <center><div class="flex-item">Redes sociales</div></center>
+           <center><div class="flex-item">Medios de pago</div></center>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
